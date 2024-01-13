@@ -1,0 +1,328 @@
+[
+    {
+        "label": "toga",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "toga",
+        "description": "toga",
+        "detail": "toga",
+        "documentation": {}
+    },
+    {
+        "label": "Pack",
+        "importPath": "toga.style",
+        "description": "toga.style",
+        "isExtraImport": true,
+        "detail": "toga.style",
+        "documentation": {}
+    },
+    {
+        "label": "Pack",
+        "importPath": "toga.style",
+        "description": "toga.style",
+        "isExtraImport": true,
+        "detail": "toga.style",
+        "documentation": {}
+    },
+    {
+        "label": "COLUMN",
+        "importPath": "toga.style.pack",
+        "description": "toga.style.pack",
+        "isExtraImport": true,
+        "detail": "toga.style.pack",
+        "documentation": {}
+    },
+    {
+        "label": "ROW",
+        "importPath": "toga.style.pack",
+        "description": "toga.style.pack",
+        "isExtraImport": true,
+        "detail": "toga.style.pack",
+        "documentation": {}
+    },
+    {
+        "label": "COLUMN",
+        "importPath": "toga.style.pack",
+        "description": "toga.style.pack",
+        "isExtraImport": true,
+        "detail": "toga.style.pack",
+        "documentation": {}
+    },
+    {
+        "label": "ROW",
+        "importPath": "toga.style.pack",
+        "description": "toga.style.pack",
+        "isExtraImport": true,
+        "detail": "toga.style.pack",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio.base_events",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio.base_events",
+        "description": "asyncio.base_events",
+        "detail": "asyncio.base_events",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio.events",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio.events",
+        "description": "asyncio.events",
+        "detail": "asyncio.events",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio.log",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio.log",
+        "description": "asyncio.log",
+        "detail": "asyncio.log",
+        "documentation": {}
+    },
+    {
+        "label": "heapq",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "heapq",
+        "description": "heapq",
+        "detail": "heapq",
+        "documentation": {}
+    },
+    {
+        "label": "selectors",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "selectors",
+        "description": "selectors",
+        "detail": "selectors",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "HelloWorld",
+        "kind": 6,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python.helloworld.app",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python.helloworld.app",
+        "peekOfCode": "class HelloWorld(toga.App):\n    def startup(self):\n        main_box = toga.Box(style=Pack(direction=COLUMN))\n        name_label = toga.Label(\"Your name: \", style=Pack(padding=(0, 5)))\n        self.name_input = toga.TextInput(style=Pack(flex=1))\n        name_box = toga.Box(style=Pack(direction=ROW, padding=5))\n        name_box.add(name_label)\n        name_box.add(self.name_input)\n        button = toga.Button(\n            \"Say Hello!\", on_press=self.say_hello, style=Pack(padding=5)",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python.helloworld.app",
+        "documentation": {}
+    },
+    {
+        "label": "greeting",
+        "kind": 2,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python.helloworld.app",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python.helloworld.app",
+        "peekOfCode": "def greeting(name):\n    if name:\n        return f\"Hello, {name}\"\n    else:\n        return \"Hello, stranger\"\nclass HelloWorld(toga.App):\n    def startup(self):\n        main_box = toga.Box(style=Pack(direction=COLUMN))\n        name_label = toga.Label(\"Your name: \", style=Pack(padding=(0, 5)))\n        self.name_input = toga.TextInput(style=Pack(flex=1))",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python.helloworld.app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python.helloworld.app",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python.helloworld.app",
+        "peekOfCode": "def main():\n    return HelloWorld()",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python.helloworld.app",
+        "documentation": {}
+    },
+    {
+        "label": "AndroidEventLoop",
+        "kind": 6,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "peekOfCode": "class AndroidEventLoop(asyncio.SelectorEventLoop):\n    # `AndroidEventLoop` exists to support starting the Python event loop cooperatively with\n    # the built-in Android event loop. Since it's cooperative, it has a `run_forever_cooperatively()`\n    # method which returns immediately. This is is different from the parent class's `run_forever()`,\n    # which blocks.\n    #\n    # In some cases, for simplicity of implementation, this class reaches into the internals of the\n    # parent and grandparent classes.\n    #\n    # A Python event loop handles two kinds of tasks. It needs to run delayed tasks after waiting",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "documentation": {}
+    },
+    {
+        "label": "AndroidInterop",
+        "kind": 6,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "peekOfCode": "class AndroidInterop:\n    \"\"\"Encapsulate details of Android event loop cooperation.\"\"\"\n    def __init__(self):\n        # `_runnable_by_fn` is a one-to-one mapping from Python callables to Java Runnables.\n        # This allows us to avoid creating more than one Java object per Python callable, which\n        # would prevent removeCallbacks from working.\n        self._runnable_by_fn = {}\n        # The handler must be created on the Android UI thread.\n        self.handler = Handler()\n    def get_or_create_runnable(self, fn):",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "documentation": {}
+    },
+    {
+        "label": "PythonRunnable",
+        "kind": 6,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "peekOfCode": "class PythonRunnable(Runnable):\n    \"\"\"Bind a specific Python callable in a Java `Runnable`.\"\"\"\n    def __init__(self, fn):\n        super().__init__()\n        self._fn = fn\n    def run(self):\n        self._fn()\nclass AndroidSelector(selectors.SelectSelector):\n    \"\"\"Subclass of selectors.Selector which cooperates with the Android event loop\n    to learn when file descriptors become ready for I/O.",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "documentation": {}
+    },
+    {
+        "label": "AndroidSelector",
+        "kind": 6,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "peekOfCode": "class AndroidSelector(selectors.SelectSelector):\n    \"\"\"Subclass of selectors.Selector which cooperates with the Android event loop\n    to learn when file descriptors become ready for I/O.\n    AndroidSelector's `select()` raises NotImplementedError; see its comments.\"\"\"\n    def __init__(self, loop):\n        super().__init__()\n        self.loop = loop\n        # Lazily-created AndroidSelectorFileDescriptorEventsListener.\n        self._file_descriptor_event_listener = None\n        # Keep a `_debug` flag so that a developer can modify it for more debug printing.",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "documentation": {}
+    },
+    {
+        "label": "AndroidSelectorFileDescriptorEventsListener",
+        "kind": 6,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "peekOfCode": "class AndroidSelectorFileDescriptorEventsListener(OnFileDescriptorEventListener):\n    \"\"\"Notify an `AndroidSelector` instance when file descriptors become readable/writable.\"\"\"\n    def __init__(self, android_selector):\n        super().__init__()\n        self.android_selector = android_selector\n        # Keep a `_debug` flag so that a developer can modify it for more debug printing.\n        self._debug = False\n    def onFileDescriptorEvents(self, fd_obj, events):\n        \"\"\"Receive a Java FileDescriptor object and notify the Python event loop that the FD\n        is ready for read and/or write.",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "documentation": {}
+    },
+    {
+        "label": "Looper",
+        "kind": 5,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "peekOfCode": "Looper = JavaClass(\"android/os/Looper\")\nHandler = JavaClass(\"android/os/Handler\")\nOnFileDescriptorEventListener = JavaInterface(\n    \"android/os/MessageQueue$OnFileDescriptorEventListener\"\n)\nFileDescriptor = JavaClass(\"java/io/FileDescriptor\")\nRunnable = JavaInterface(\"java/lang/Runnable\")\n# Some methods in this file are based on CPython's implementation.\n# Per https://github.com/python/cpython/blob/master/LICENSE , re-use is permitted\n# via the Python Software Foundation License Version 2, which includes inclusion",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "documentation": {}
+    },
+    {
+        "label": "Handler",
+        "kind": 5,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "peekOfCode": "Handler = JavaClass(\"android/os/Handler\")\nOnFileDescriptorEventListener = JavaInterface(\n    \"android/os/MessageQueue$OnFileDescriptorEventListener\"\n)\nFileDescriptor = JavaClass(\"java/io/FileDescriptor\")\nRunnable = JavaInterface(\"java/lang/Runnable\")\n# Some methods in this file are based on CPython's implementation.\n# Per https://github.com/python/cpython/blob/master/LICENSE , re-use is permitted\n# via the Python Software Foundation License Version 2, which includes inclusion\n# into this project under its BSD license terms so long as we retain this copyright notice:",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "documentation": {}
+    },
+    {
+        "label": "OnFileDescriptorEventListener",
+        "kind": 5,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "peekOfCode": "OnFileDescriptorEventListener = JavaInterface(\n    \"android/os/MessageQueue$OnFileDescriptorEventListener\"\n)\nFileDescriptor = JavaClass(\"java/io/FileDescriptor\")\nRunnable = JavaInterface(\"java/lang/Runnable\")\n# Some methods in this file are based on CPython's implementation.\n# Per https://github.com/python/cpython/blob/master/LICENSE , re-use is permitted\n# via the Python Software Foundation License Version 2, which includes inclusion\n# into this project under its BSD license terms so long as we retain this copyright notice:\n# Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013,",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "documentation": {}
+    },
+    {
+        "label": "FileDescriptor",
+        "kind": 5,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "peekOfCode": "FileDescriptor = JavaClass(\"java/io/FileDescriptor\")\nRunnable = JavaInterface(\"java/lang/Runnable\")\n# Some methods in this file are based on CPython's implementation.\n# Per https://github.com/python/cpython/blob/master/LICENSE , re-use is permitted\n# via the Python Software Foundation License Version 2, which includes inclusion\n# into this project under its BSD license terms so long as we retain this copyright notice:\n# Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013,\n# 2014, 2015, 2016, 2017, 2018, 2019, 2020 Python Software Foundation; All Rights Reserved.\nclass AndroidEventLoop(asyncio.SelectorEventLoop):\n    # `AndroidEventLoop` exists to support starting the Python event loop cooperatively with",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "documentation": {}
+    },
+    {
+        "label": "Runnable",
+        "kind": 5,
+        "importPath": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "description": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "peekOfCode": "Runnable = JavaInterface(\"java/lang/Runnable\")\n# Some methods in this file are based on CPython's implementation.\n# Per https://github.com/python/cpython/blob/master/LICENSE , re-use is permitted\n# via the Python Software Foundation License Version 2, which includes inclusion\n# into this project under its BSD license terms so long as we retain this copyright notice:\n# Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013,\n# 2014, 2015, 2016, 2017, 2018, 2019, 2020 Python Software Foundation; All Rights Reserved.\nclass AndroidEventLoop(asyncio.SelectorEventLoop):\n    # `AndroidEventLoop` exists to support starting the Python event loop cooperatively with\n    # the built-in Android event loop. Since it's cooperative, it has a `run_forever_cooperatively()`",
+        "detail": "helloworld.build.helloworld.android.gradle.app.src.main.python-briefcase.rubicon.java.android_events",
+        "documentation": {}
+    },
+    {
+        "label": "HelloWorld",
+        "kind": 6,
+        "importPath": "helloworld.src.helloworld.app",
+        "description": "helloworld.src.helloworld.app",
+        "peekOfCode": "class HelloWorld(toga.App):\n    def startup(self):\n        main_box = toga.Box(style=Pack(direction=COLUMN))\n        name_label = toga.Label(\"Your name: \", style=Pack(padding=(0, 5)))\n        self.name_input = toga.TextInput(style=Pack(flex=1))\n        name_box = toga.Box(style=Pack(direction=ROW, padding=5))\n        name_box.add(name_label)\n        name_box.add(self.name_input)\n        button = toga.Button(\n            \"Say Hello!\", on_press=self.say_hello, style=Pack(padding=5)",
+        "detail": "helloworld.src.helloworld.app",
+        "documentation": {}
+    },
+    {
+        "label": "greeting",
+        "kind": 2,
+        "importPath": "helloworld.src.helloworld.app",
+        "description": "helloworld.src.helloworld.app",
+        "peekOfCode": "def greeting(name):\n    if name:\n        return f\"Hello, {name}\"\n    else:\n        return \"Hello, stranger\"\nclass HelloWorld(toga.App):\n    def startup(self):\n        main_box = toga.Box(style=Pack(direction=COLUMN))\n        name_label = toga.Label(\"Your name: \", style=Pack(padding=(0, 5)))\n        self.name_input = toga.TextInput(style=Pack(flex=1))",
+        "detail": "helloworld.src.helloworld.app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "helloworld.src.helloworld.app",
+        "description": "helloworld.src.helloworld.app",
+        "peekOfCode": "def main():\n    return HelloWorld()",
+        "detail": "helloworld.src.helloworld.app",
+        "documentation": {}
+    },
+    {
+        "label": "run_tests",
+        "kind": 2,
+        "importPath": "helloworld.tests.helloworld",
+        "description": "helloworld.tests.helloworld",
+        "peekOfCode": "def run_tests():\n    project_path = Path(__file__).parent.parent\n    os.chdir(project_path)\n    # Determine any args to pass to pytest. If there aren't any,\n    # default to running the whole test suite.\n    args = sys.argv[1:]\n    if len(args) == 0:\n        args = [\"tests\"]\n    returncode = pytest.main(\n        [",
+        "detail": "helloworld.tests.helloworld",
+        "documentation": {}
+    },
+    {
+        "label": "test_first",
+        "kind": 2,
+        "importPath": "helloworld.tests.test_app",
+        "description": "helloworld.tests.test_app",
+        "peekOfCode": "def test_first():\n    \"An initial test for the app\"\n    assert 1 + 1 == 2",
+        "detail": "helloworld.tests.test_app",
+        "documentation": {}
+    }
+]
